@@ -254,7 +254,9 @@
   .marginTwo {
     margin-left: unset; }
   .marginFour {
-    margin-left: 35px; } }
+    margin-left: 35px; }
+  .marginFive {
+    margin: 15px; } }
 
 @media (min-width: 768px) {
   .animacion {
