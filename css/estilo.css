@@ -458,6 +458,10 @@
 .red {
   color: #c52525; }
 
+label {
+  display: inline-block;
+  margin-bottom: 20px; }
+
 @media (max-width: 449px) {
   .posicionOne {
     display: grid;
