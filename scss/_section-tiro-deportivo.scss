@@ -1,1 +1,15 @@
-/*nada por ahora*/
+@media(max-width:449px){
+    .imgSeven{
+        width:300px;
+        height: 310px;
+       
+    }
+    
+}
+@media(min-width:450px){
+    .imgSeven{
+        width: 600px;
+        height: 350px;
+    }
+
+}

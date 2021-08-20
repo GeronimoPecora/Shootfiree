@@ -5,9 +5,6 @@
     width: ($ancho)-300;
     height: $alto/2;
 }
-.azul{
-    color: rgb(36, 36, 158);
-}
 
 @media(max-width:449px){
     .padreFlexDeCompetenciaTwo{
@@ -23,7 +20,7 @@
         align-items: center;         
     }
     .parrafo{
-        max-width: 29%;
+        max-width: 34%;
         font-size: 14px;
         margin: 10px;  
     }
@@ -50,8 +47,8 @@
     }
     .parrafo{
         width: 150px;
-        font-size: 15px;
-        margin-left: 50px;    
+        font-size: 14px;
+        margin: 2px ;    
     }
     .tamañoOne{
         height: 200px;

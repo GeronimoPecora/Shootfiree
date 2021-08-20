@@ -5,7 +5,7 @@
 .subtitulosSection{
     color: $azul;
     text-align: $centro;
-    margin: $distaciamiento;
+    margin-top: 10px;
 }
 .center{
     text-align: $centro;
@@ -24,7 +24,6 @@
 .evenly{
     display: flex;
     justify-content: space-evenly;
-    margin: $distaciamiento;
     padding: unset; 
 }
 .around{
@@ -138,6 +137,7 @@
     .marginTwo{
         margin-left:unset ;
     }
+  
     .marginFour{
         margin-left: 35px;
     } 
@@ -182,6 +182,7 @@
     .marginSix{
         margin-left: 35px;
     }
+    
 }
 @media(min-width:1190px){
     .imgThree{
