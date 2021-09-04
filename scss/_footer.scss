@@ -30,7 +30,7 @@
 
 .enLineaFooter{  
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-decoration: none;
     list-style-type: none;   
 } 
@@ -41,26 +41,14 @@
 
     
 }
-.enLineaFooter__agrandar__agrandar--agrandarTwo{
-    @include anchoAltoFooter(55px, 55px);
-    margin-bottom: 50px;
-    transition: 2s;  
-}
-.enLineaFooter__agrandar__agrandar--agrandarThree {
-    @include anchoAltoFooter( 55px, 55px);
-    margin-bottom: 50px;
-    transition: 2s; 
-}
-.enLineaFooter__agrandar :hover{
-    @include anchoAltoFooter(100px, 100px);  
-}
-.enLineaFooter__agrandar__agrandar--agrandarTwo :hover{
-    @include anchoAltoFooter(100px, 100px);
-}
-.enLineaFooter__agrandar__agrandar--agrandarThree :hover{
-    @include anchoAltoFooter(100px, 100px);
-}
+.marginSeven{
+    margin: 8px 10px 0px 0px;
 
+}
+.marginEight{
+    margin-top: 5px;
+    
+}
 @media(max-width:449px){
     .animacionFooter{
         height: 55px;
@@ -120,6 +108,9 @@
         }    
     }
 
+}
+.a{
+    margin-bottom: 200px;
 }
 
 

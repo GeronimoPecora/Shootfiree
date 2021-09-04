@@ -135,7 +135,8 @@
         height: 350px;
     }  
     .marginTwo{
-        margin-left:unset ;
+        margin-bottom: 13px;
+        margin-top: 13px;
     }
   
     .marginFour{
@@ -178,13 +179,20 @@
     }
     .marginTwo{
         margin-left: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .marginFour{
         margin: 35px 0px 5px;
     }
+    .marginFive{
+        margin:unset;
+        margin-top: 25px;
+    }
     .marginSix{
         margin-left: 35px;
     }
+
     
 }
 @media(min-width:1190px){

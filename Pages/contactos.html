@@ -12,38 +12,30 @@
 </head>
 <body class="letra imagen">
   <header class="header atras">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0 pl-2 pr-0 ">
       <a class="navbar-brand red " href="#">
         <img src="../multimedia/tiro6.jpeg" width="80" height="80" class="d-inline-block align-center imgTwo" alt="Logo de tiro">
-        <p class="header__titulo  text-danger ">Shotfire</p>
+        <p class="header__titulo  text-primary ">Shotfire</p>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto ">
+        <ul class="navbar-nav ml-auto ">
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">Inicio</a>
+            <a class="nav-link text-primary" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="../Pages/tiro-deportivo.html">Tiro deportivo</a>
+            <a class="nav-link text-primary" href="../Pages/tiro-deportivo.html">Tiro deportivo</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="../Pages/competencias.html">Competencias</a>
+            <a class="nav-link text-primary" href="../Pages/competencias.html">Competencias</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="../Pages/productos.html">Productos</a>
+            <a class="nav-link text-primary" href="../Pages/productos.html">Productos</a>
           </li>
           <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle text-danger " href="../Pages/contactos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Contactos
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#Registracion">Registracion</a>
-              <a class="dropdown-item" href="#Nosotros">Nosotros</a>
-              <a class="dropdown-item" href="#Preguntas">Preguntas Frecuentes</a>
-              <a class="dropdown-item" href="#Redes">Redes sociales</a>
-            </div>
+            <a class="nav-link  text-white" href="../Pages/contactos.html">Contactos</a>
           </li>
         </ul>
       </div>
@@ -54,56 +46,50 @@
       <h2 class="subtitulosSection animacion" id="Registracion">Registracion</h2>
       <p class="marginTwo center red">Podria completar este formulario, por favor.</p>
       <form>
-        <div class="posicionOne">
+        <div class="posicionOne marginFive">
           <label  for="nombre">Nombre</label>
-          <input type="text" id="nombre" class="input " placeholder="ingrese su nombre...">
-          <label for="password">Contraseña</label>
-          <input type="password" id="password" class="input"  placeholder="ingrese su contraseña">
-          <label for="email">Email</label>
-          <input type="email" id="email" class="input"  placeholder="ingrese su email...">  
+          <input type="text" id="nombre" class="input border-primary rounded" placeholder="ingrese su nombre...">
+          <label class="margin" for="password">Contraseña</label>
+          <input type="password" id="password" class="input border-primary rounded"  placeholder="ingrese su contraseña">
+          <label class="margin" for="email">Email</label>
+          <input type="email" id="email" class="input border-primary rounded"  placeholder="ingrese su email...">  
         </div>
-        <div class="evenly">
-          <div class="marginFour  marginFive">
+        <div class="evenly ">
+          <div class="marginFour ">
             <h4 class="fontSizeOne" >¿Te gusta el tiro?</h4>
-            <label for="tiro">Si</label> 
-            <input type="radio" name="te gusta el tiro" id="tiro">
-            <label for="tiro">No</label> 
-            <input type="radio" name="te gusta el tiro" id="tiro"> 
+            <div class="center marginFive">
+              <label for="tiro">Si</label> 
+              <input type="radio" name="te gusta el tiro" id="tiro">
+              <label for="tiro">No</label> 
+              <input type="radio" name="te gusta el tiro" id="tiro">   
+            </div>
           </div>
-          <div class="marginFour marginFive ">
+          <div class="marginFour  ">
             <h4 class="fontSizeOne">¿Cual te gusta mas?</h4>
-            <select class="color borderSelect">
-              <option>Tiro con rifle</option>
-              <option>Tiro con pistola</option>             
-            </select>
+            <div class="gridOne marginFive">
+              <select class="color borderSelect   ">
+                <option>Tiro con rifle</option>
+                <option>Tiro con pistola</option>             
+              </select>
+            </div>
+           
           </div>
         </div>
-        <div class="gridOne  marginFour"> 
+        <div class="gridOne marginFour"> 
           <div>
-            <label class="marginEight fontSizeTwo " for="condiciones">¿aceptas los terminos de condiciones?</label>
+            <label class="fontSizeTwo " for="condiciones">¿aceptas los terminos de condiciones?</label>
             <input type="checkbox" id="condiciones"> 
           </div>
         </div>
-        <div class="evenly marginFour">
+        <div class="evenly marginTwo">
           <input class="btn btn-primary" type="reset" value="limpiar">
           <button class="btn btn-primary" type="submit">Enviar</button>
         </div>
       </form>
-    </article> 
-    <article class="article">
-      <div class="subtitulosSection ">
-        <h3 class="animacion" id="Nosotros">Nosotros</h3>
-      </div>
-      <p class="article__parrafoOne__parrafoOne--parrafoThree">Nuestra historia</p>
-      <p class="article__parrafoOne__parrafoOne--parrafoFour" >Nosotros empezamos hace 3 años pero recien de  un año intentando, pudimos ser reconocidos y lo logramos y ahora estamos aqui parados como una gran empresa que promueve este hermoso deporte.</p>           
-      <p class="article__parrafoOne__parrafoOne--parrafoThree">¿Quienes somos?</p>
-      <p class="article__parrafoOne__parrafoOne--parrafoFour">Somos una empresa con pocos trabajadores, ubicada en Santiago del Estero, la Banda Y todos somos una familia que queremos que ustedes se pueden unir a nosotros para poder seguir creciendo.</p>
-      <p class="article__parrafoOne__parrafoOne--parrafoThree">¿Como trabajamos?</p>
-      <p class="article__parrafoOne__parrafoOne--parrafoFour ">Nosotros trabajamos en una empresa, no muy grande que intenta promover este deporte y para esto lo hacemos de diferentes manera para poder seguir creciendo y manteniendonos la idea de complacer al lector y al cliente.</p>            
     </article>               
   </section> 
-  <footer class="footer atrasThree">
-    <div class="gridOne">
+  <footer class="footer atrasThree  ">
+    <div class="gridOne ">
       <p id="Preguntas" ></p>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Preguntas frecuentes
@@ -123,12 +109,11 @@
           <p>Esto es segun porque por ejemplo quieres ir profecionalmente o tener un buen nivel, este deporte va a ser costoso.</p>       
         </div>
       </div> 
-    </div> 
-          <h4 class="subtitulosFooter animacionFooter margin">Nuestras redes sociales</h4>      
-    <ul style="margin-bottom: 0rem;" class="enLineaFooter">    
-      <li class="enLineaFooter__agrandar"><a href="https://www.instagram.com/geropecora12/" frameborder="0"><img src="../multimedia/icon de instagram.png" width="53px" height="53x" alt="instagram"></a></li>
-      <li class="enLineaFooter__agrandar__agrandar--agrandarTwo"><a href="https://www.facebook.com/geronimo.pecora.7" frameborder="0"><img src="../multimedia/social_facebook_box_blue_256_30649.png"  width="62px" height="60px" alt="facebook"></a></li>
-      <li class="enLineaFooter__agrandar__agrandar--agrandarThree"><a href="https://www.youtube.com/channel/UCtGkDdRsf1i29wrsWVpYnNA" frameborder="0"><img src="../multimedia/YouTube_23392.png"  width="62px"  height="62px" alt="youtube"></a></li>
+    </div>      
+    <ul style="margin-bottom: 0rem;" class=" enLineaFooter">           
+      <li class="marginSeven "><a href="https://www.instagram.com/geropecora12/" frameborder="0"><img src="../multimedia/icon de instagram.png" width="37px" height="37x" alt="instagram"></a></li>
+      <li class="marginEight marginEleven "><a href="https://www.facebook.com/geronimo.pecora.7" frameborder="0"><img  src="../multimedia/social_facebook_box_blue_256_30649.png"  width="44px" height="44px" alt="facebook"></a></li>
+      <li><a href="https://www.youtube.com/channel/UCtGkDdRsf1i29wrsWVpYnNA" frameborder="0"><img src="../multimedia/—Pngtree—youtube social media icon_3572473.png"  width="61px"  height="55px" alt="youtube"></a></li>
     </ul>
   </footer>  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,29 +1,14 @@
 .atras{
-    background-color: rgb(77, 77, 221);
-    border:outset 3px #eeecf8;
+    background-color: rgb(58, 57, 57);
+    border:inset 3px #797979;
     margin-bottom: 10px;
+   
 }
 
 @media(max-width:449px){
     .header__titulo{
         font-size: 28px;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 4s;
-        animation-name: aparecer;
-        margin-right: 0px;
         display: inline;
-     @keyframes aparecer {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-
-     }
-
     }
     .animacion{
         height: 48px;
@@ -51,23 +36,7 @@
 @media(min-width:450px){
     .header__titulo{
         font-size: 28px;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 4s;
-        animation-name: aparecer;
-        margin-right: 0px;
         display: inline;
-     @keyframes aparecer {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-
-     }
-
     }
     .animacion{
         height: 33px;
@@ -96,24 +65,9 @@
 @media(min-width:768px){ 
     .header__titulo{
         font-size: 35px;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 4s;
-        animation-name: aparecer;
-        margin-right: 160px;
         display: inline;
-     @keyframes aparecer {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }  
-
-     }
-
     }
+
     .animacion{
         height: 40px;
         font-size: 24px;
@@ -134,9 +88,10 @@
     }
    
     .imgTwo{
-        width: 85px; 
-        height: 85px;
+        width: 65px; 
+        height: 65px;
     }
+    
 }
 
 
