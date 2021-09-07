@@ -103,7 +103,7 @@
 .subtitulosSection {
   color: #1310e7;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 15px; }
 
 .center {
   text-align: center; }
@@ -140,6 +140,9 @@
 .row {
   margin-right: unset;
   margin-left: unset; }
+
+p {
+  margin-bottom: unset; }
 
 @media (max-width: 449px) {
   .animacion {
@@ -229,13 +232,16 @@
 
 @media (min-width: 768px) {
   .animacion {
-    height: 40px;
-    font-size: 24px;
+    height: 80px;
+    font-size: 22px;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
     animation-duration: 3s;
     animation-delay: 0s;
-    animation-name: agrandarTwo; }
+    animation-name: agrandarTwo;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   @keyframes agrandarTwo {
     0% {
       font-size: 10px; }
@@ -260,13 +266,17 @@
     margin-left: 35px;
     margin-bottom: 20px;
     margin-top: 20px; }
+  .margin {
+    margin: unset; }
   .marginFour {
     margin: 35px 0px 5px; }
   .marginFive {
     margin: unset;
     margin-top: 25px; }
   .marginSix {
-    margin-left: 35px; } }
+    margin-left: 35px; }
+  .marginEleven {
+    margin: 0px 150px 0px 150px; } }
 
 @media (min-width: 1190px) {
   .imgThree {
@@ -300,7 +310,9 @@
 @media (min-width: 450px) {
   .imgSeven {
     width: 600px;
-    height: 350px; } }
+    height: 350px; }
+  .borderThree {
+    border-bottom: solid 3px white; } }
 
 .verde {
   color: green; }
@@ -465,9 +477,7 @@ label {
     width: 260px;
     height: 25px;
     font-size: 25;
-    background-color: #88f791; }
-  .marginEleven {
-    margin-bottom: 10px; } }
+    background-color: #88f791; } }
 
 .atrasThree {
   background-color: #000000; }
@@ -477,12 +487,13 @@ label {
   text-align: center; }
 
 .rojoFooter, .footer__preguntasOne {
-  color: red;
+  color: #000000;
   text-align: center; }
 
 .footer__preguntasOne {
   margin: 0px 0px 15px;
-  font-size: 17px; }
+  font-size: 18px;
+  font-weight: 600; }
 
 .footer__preguntas__preguntas--preguntasTwo {
   margin: 0px 0px 25px;
@@ -568,6 +579,3 @@ label {
       font-size: 22px; }
     100% {
       font-size: 23px; } } }
-
-.a {
-  margin-bottom: 200px; }
