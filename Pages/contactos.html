@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Contactos de Shotfire</title>
@@ -16,29 +19,29 @@
 <body class="letra imagen">
   <header class="header atras">
     <nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0 pl-2 pr-0 ">
-      <a class="navbar-brand red " href="#">
-        <img src="../multimedia/tiro6.jpeg" width="80" height="80" class="d-inline-block align-center imgTwo" alt="Logo de tiro">
-        <p class="header__titulo  text-primary ">Shotfire</p>
+      <a class="navbar-brand" href="#">
+        <img src="../multimedia/tiro6.jpeg" width="80" height="80" class="d-inline-block align-center img" alt="Logo de tiro">
+        <p class="header__titulo  text-white letraTwo ">Shotfire</p>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto ">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-primary" href="../index.html">Inicio</a>
+            <a class="nav-link text-white letraTwo" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link text-primary" href="../Pages/tiro-deportivo.html">Tiro deportivo</a>
+            <a class="nav-link text-white letraTwo" href="../Pages/tiro-deportivo.html">Tiro deportivo</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link text-primary" href="../Pages/competencias.html">Competencias</a>
+            <a class="nav-link text-white letraTwo" href="../Pages/competencias.html">Competencias</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link text-primary" href="../Pages/productos.html">Productos</a>
+            <a class="nav-link text-white letraTwo" href="../Pages/productos.html">Productos</a>
           </li>
           <li class="nav-item dropdown ">
-            <a class="nav-link  text-white" href="../Pages/contactos.html">Contactos</a>
+            <a class="nav-link text-white letraTwo" href="../Pages/contactos.html">Contactos</a>
           </li>
         </ul>
       </div>
@@ -46,77 +49,85 @@
   </header> 
   <section class="atrasTwo"> 
     <article>
-      <h2 class="subtitulosSection animacion" id="Registracion">Registracion</h2>
-      <p class="marginTwo center red">Podria completar este formulario, por favor.</p>
-      <form>
-        <div class="posicionOne marginFive">
-          <label  for="nombre">Nombre</label>
-          <input type="text" id="nombre" class="input  rounded" placeholder="ingrese su nombre...">
-          <label class="margin" for="password">Contraseña</label>
-          <input type="password" id="password" class="input  rounded"  placeholder="ingrese su contraseña">
-          <label class="margin" for="email">Email</label>
-          <input type="email" id="email" class="input  rounded"  placeholder="ingrese su email...">  
+      <div class="row around mb-4">
+        <div class="col-md-12">
+          <div class="card border-dark   ">
+            <div class="card-header text-center bg-dark text-white animacion letraTwo border-secondary">Registracion</div>
+            <div class="card-body bg-secondary">
+              <p class="card-text center text-white">Podria completar este formulario, por favor.</p>
+            </div>
+          </div>
         </div>
-        <div class="evenly ">
-          <div class="marginFour ">
-            <h4 class="fontSizeOne" >¿Te gusta el tiro?</h4>
-            <div class="center marginFive">
+      </div>
+      <form class="borderTwo m-2 text-white" >
+          <div class="posicionOne mt-3">
+            <label class="m-1" for="nombre">Nombre</label>
+            <input type="text" id="nombre" class="input rounded padding " placeholder="ingrese su nombre...">
+            <label class="m-1" for="password">Contraseña</label>
+            <input type="password" id="password" class="input  rounded padding"  placeholder="ingrese su contraseña">
+            <label class="m-1" for="email">Email</label>
+            <input type="email" id="email" class="input  rounded padding"  placeholder="ingrese su email...">  
+          </div>
+        <div class="evenly mt-3">
+          <div>
+            <h4 class="fontSizeOne marginFour">¿Te gusta el tiro?</h4>
+            <div class="center mb-3">
               <label for="tiro">Si</label> 
               <input type="radio" name="te gusta el tiro" id="tiro">
               <label for="tiro">No</label> 
               <input type="radio" name="te gusta el tiro" id="tiro">   
             </div>
           </div>
-          <div class="marginFour  ">
+          <div class="marginFour">
             <h4 class="fontSizeOne">¿Cual te gusta mas?</h4>
-            <div class="gridOne marginFive">
-              <select class="color borderSelect   ">
+            <div class="gridOne">
+              <select class="color borderSelect">
                 <option>Tiro con rifle</option>
                 <option>Tiro con pistola</option>             
               </select>
             </div>
+          </div>
+        </div>
+        <div class="gridOne"> 
+          <div>
+            <label class="fontSizeTwo center" for="condiciones">¿aceptas los terminos de condiciones?</label>
+            <divv class="gridOne mb-2">
+              <input type="checkbox" id="condiciones"> 
+            </div>
            
           </div>
         </div>
-        <div class="gridOne marginFour"> 
-          <div>
-            <label class="fontSizeTwo " for="condiciones">¿aceptas los terminos de condiciones?</label>
-            <input type="checkbox" id="condiciones"> 
-          </div>
-        </div>
-        <div class="evenly marginTwo">
+        <div class="center mt-2">
           <input class="btn btn-primary" type="reset" value="limpiar">
           <button class="btn btn-primary" type="submit">Enviar</button>
         </div>
       </form>
     </article>               
   </section> 
-  <footer class="footer atrasThree  ">
-    <div class="gridOne ">
-      <p id="Preguntas" ></p>
+  <footer class="footer atrasThree">
+    <div class="gridOne">
         <a class="btn btn-primary mt-3 mb-1" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Preguntas frecuentes
         </a>
-      </p>
       <div class="collapse" id="collapseExample">
-        <div class="card card-body">
+        <div class="card card-body bg-dark">
           <p class="footer__preguntasOne">¿Es realmente dificil el deporte?</p>         
-          <p>Eso obviamente depende de la vista de cada uno pero si me preguntas, yo te diria que si que un deporte muy dificil ya que en este deporte no setrabaja el cuerpo sino el cerebro y esto es ya que se necesita una gran concentracion para obtener un buen disparo.</p>
+          <p class="text-white">Eso obviamente depende de la vista de cada uno pero si me preguntas, yo te diria que si que un deporte muy dificil ya que en este deporte no setrabaja el cuerpo sino el cerebro y esto es ya que se necesita una gran concentracion para obtener un buen disparo.</p>
         </div>
-        <div class="card card-body">
+        <div class="card card-body bg-dark">
           <p class="footer__preguntasOne">¿Es peligroso el tiro?</p>
-          <p>Si este deporte es peligro, si no sigue con las regla de seguridad y estan en un tiro y con un entrenador de tiro.</p>
+          <p class="text-white">Este deporte es peligro, si no sigue con las regla de seguridad y estan en un tiro y con un entrenador de tiro.</p>
         </div>
-        <div class="card card-body">
+        <div class="card card-body bg-dark">
           <p class="footer__preguntasOne">¿Es costoso el tiro deportivo?</p>
-          <p>Esto es segun porque por ejemplo quieres ir profecionalmente o tener un buen nivel, este deporte va a ser costoso.</p>       
+          <p class="text-white">Esto es segun porque por ejemplo quieres ir profecionalmente o tener un buen nivel, este deporte va a ser costoso.</p>       
         </div>
       </div> 
-    </div>      
+    </div> 
     <ul style="margin-bottom: 0rem;" class=" enLineaFooter">           
       <li class="marginSeven"><a href="https://www.instagram.com/geropecora12/" frameborder="0"><img src="../multimedia/icon de instagram.png" width="37px" height="37x" alt="instagram"></a></li>
-      <li class="marginEight"><a href="https://www.facebook.com/geronimo.pecora.7" frameborder="0"><img  src="../multimedia/social_facebook_box_blue_256_30649.png"  width="44px" height="44px" alt="facebook"></a></li>
-      <li><a href="https://www.youtube.com/channel/UCtGkDdRsf1i29wrsWVpYnNA" frameborder="0"><img src="../multimedia/—Pngtree—youtube social media icon_3572473.png"  width="61px"  height="55px" alt="youtube"></a></li>
+      <li class="marginEight"><a href="https://www.facebook.com/geronimo.pecora.7" frameborder="0"><img  src="../multimedia/social_facebook_box_blue_256_30649.png" width="44px" height="44px" alt="facebook"></a></li>
+      <li><a href="https://www.youtube.com/channel/UCtGkDdRsf1i29wrsWVpYnNA" frameborder="0"><img src="../multimedia/—Pngtree—youtube social media icon_3572473.png" width="61px" height="55px" alt="youtube"></a></li>
     </ul>
   </footer>  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

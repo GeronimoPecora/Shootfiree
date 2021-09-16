@@ -2,23 +2,9 @@
     background-color: #000000;
     
 }
-@mixin anchoAltoFooter($width, $height) {
-    height: $height;
-    width: $width;  
-}
-.subtitulosFooter{
-    color: $rojoFooter;
-    text-align: $centroFooter;
-}
-
-.rojoFooter{
-    color: #000000;
-    text-align: center
-    
-    
-}
 .footer__preguntasOne{
-    @extend .rojoFooter;
+    color: black;
+    text-align: $centroFooter ;
     margin:0px 0px 15px;
     font-size: $numeroFooter; 
     font-weight: 600;
@@ -37,13 +23,6 @@
     text-decoration: none;
     list-style-type: none;   
 } 
-.enLineaFooter__agrandar{
-    @include anchoAltoFooter(50px, 50px);
-    margin-bottom: 5px;
-    transition: 2s;
-
-    
-}
 .marginSeven{
     margin: 8px 10px 0px 0px;
 
@@ -51,66 +30,6 @@
 .marginEight{
     margin-top: 5px;
     
-}
-@media(max-width:449px){
-    .animacionFooter{
-        height: 55px;
-        font-size: 21px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandar;
-     
-     @keyframes agrandar {
-            0%{ font-size: 8px;}
-            25%{ font-size: 12px;}
-            50%{ font-size: 14px;}
-            75%{ font-size: 17px;}
-            100%{ font-size: 21px;}
-        }    
-    }
-   
-   
-}
-@media(min-width:450px){
-    .animacionFooter{
-        height: 55px;
-        font-size: 21px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandar;
-     
-     @keyframes agrandar {
-            0%{ font-size: 8px;}
-            25%{ font-size: 12px;}
-            50%{ font-size: 14px;}
-            75%{ font-size: 17px;}
-            100%{ font-size: 21px;}
-        }    
-    }
-}
-@media(min-width:768px){ 
-    .animacionFooter{
-        height: 55px;
-        font-size: 23px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandar;
-     
-     @keyframes agrandar {
-            0%{ font-size: 8px;}
-            25%{ font-size: 12px;}
-            50%{ font-size: 18px;}
-            75%{ font-size: 22px;}
-            100%{ font-size: 23px;}
-        }    
-    }
-
 }
 
 

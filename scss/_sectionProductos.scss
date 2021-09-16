@@ -1,22 +1,75 @@
-@media(max-width:449px){
+.tamañoEight{
+    width: 240px;
+    
+}
+@media(max-width:349px){
+    .tamañoTwo{
+        height:565px;
+        min-width: 100%;
+    }
+    .tamañoThree{
+        height:535px;
+        width: 100%;
+    }
+    .tamañoSix{
+        height: 395px;
+        min-width: 100%;
+    }
+    .imgFour{
+        height:320px;
+    }
+ 
+}
+@media(min-width:350px){
     .tamañoTwo{
         height:580px;
-        width: 290px;
+        width: 323px;
     }
     .tamañoThree{
-        height:530px;
-        width: 290px;
+        height:535px;
+        width: 323px;
+    }
+    .tamañoSix{
+        height: 470px;
+        width: 323px;
+    }
+    .imgFour{
+        height:400px;
+    }
+   
+ 
+}
+@media(min-width:400px){
+    .tamañoTwo{
+        height:605px;
+        width: 370px;
+    }
+    .tamañoThree{
+        height:517px;
+        width: 379px;
+    }
+    .tamañoSix{
+        height: 470px;
+        width: 370px;
     }
 }
-@media(min-width:450px){
+@media(min-width:510px){
     .tamañoTwo{
         height:670px;
-        width: 420px;
+        width: 480px;
     }
     .tamañoThree{
-        height:505px;
-        width: 437px;
+        height:515px;
+        width: 480px;
     }
+    .tamañoSix{
+        height: 480px;
+        width: 480px;
+    }
+    .imgFour{
+        height:410px;
+    }
+    
 }
 @media(min-width:768px){
     .tamañoTwo{
@@ -24,20 +77,51 @@
         width: 270px;
     }
     .tamañoThree{
-        height: 555px;
+        height: 570px;
         width: unset;
     }
+    .tamañoSix{
+        height: 370px;
+        width: 260px;
+    }
+    .imgFour{
+        height: 280px;
+    }
+  
  
 }
-@media(min-width:1190px){
+
+@media(min-width:920px){
+    .tamañoTwo{
+        height:unset;
+        width: 300px;
+    }
+    .tamañoThree{
+        height: 535px;
+        width: unset;
+    }
+    .tamañoSix{
+        height: 460px;
+        width: 290px;
+    }
+    .imgFour{
+        height: 400px;
+    }
+  
+ 
+}
+@media(min-width:1020px){
     .tamañoTwo{
         height:unset;
         width: unset;
     }
-    .tamañoThree{
-        height: 510px;
+    .tamañoSix{
+        height: unset;
         width: unset;
     }
     
+  
 } 
+
+
 

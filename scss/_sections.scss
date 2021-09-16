@@ -1,25 +1,9 @@
-
 .atrasTwo{
     background-color:#ffffff;
-}
-.subtitulosSection{
-    color: $azul;
-    text-align: $centro;
-    margin-top: 15px;
-}
-.center{
-    text-align: $centro;
 }
 .gridOne{
     display: grid;
     justify-content: center;  
-}
-.article__parrafoOne__parrafoOne--parrafoThree{
-    color: rgb(238, 93, 93);
-    text-decoration: none; 
-    text-align:  $centro;
-    margin: $distaciamientoTwo;
-    font-size: $numero;
 }
 .evenly{
     display: flex;
@@ -46,15 +30,24 @@
 p{
     margin-bottom: unset;
 }
+.center{
+    text-align: $centro;
+}
 
-@media(max-width:449px){
+
+
+
+@media(max-width:470px){
     .animacion{
-        height: 48px;
+        height: 110px;
         font-size: 23px;
         animation-iteration-count:initial ;
         animation-timing-function: ease-in;
         animation-duration: 3s;
         animation-delay: 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         animation-name: agrandarTwo;
      
      @keyframes agrandarTwo {
@@ -70,42 +63,37 @@ p{
         display: grid;
         justify-content: center;
     }
-    .imgThree{
-        height: 250px;
-    }
-    .imgFour{
+    .imgTwo{
         max-width: 95%;
         justify-self: center;
     }
-    .imgFive{
+    .imgThree{
         max-width: 48%;  
         margin: 3px; 
     }
-    .imgSix{
-        max-width: 80%;
-        justify-self: center;
-        width: 350px;
-        height: 270px;
-
-    }  
     .marginTwo{
         margin-left:unset ;
     }
     .marginFour{
-        margin-left: 15px;
+        margin-left: 20px;
     }
-    .marginFive{
-        margin: 15px;
+   
+    .paddingUnset{
+        padding: unset;
     }
+    
 }
-@media(min-width:450px){
+@media(min-width:471px){
     .animacion{
-        height: 33px;
+        height: 80px;
         font-size: 23px;
         animation-iteration-count:initial ;
         animation-timing-function: ease-in;
         animation-duration: 3s;
         animation-delay: 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         animation-name: agrandarTwo;
      
      @keyframes agrandarTwo {
@@ -121,33 +109,28 @@ p{
         display: grid;
         justify-content: center;
     }
-    .imgThree{
-        height: 250px;
-    }
-    .imgFour{
+    .imgTwo{
         max-width: 95%;
         justify-self: center;
     }
-    .imgFive{
+    .imgThree{
         max-width: 48%;  
         margin: 3px; 
     }
-    .imgSix{
-        max-width: 70%;
-        justify-self: center;
-        height: 350px;
-    }  
     .marginTwo{
         margin-bottom: 13px;
         margin-top: 13px;
     }
   
     .marginFour{
-        margin-left: 35px;
+        margin-left: unset;
+        
     } 
-    .marginFive{
-        margin: 15px;
+   
+    .paddingUnset{
+        padding: unset;
     }
+   
 }
 @media(min-width:768px){ 
     .animacion{
@@ -175,14 +158,6 @@ p{
         display:flex ;
         justify-content: space-evenly;
     }
-    .imgThree{
-        width: 400px;
-        height: 300px;  
-    }
-    .imgSix{
-        width: 650px;
-        height: 350px;
-    }
     .marginTwo{
         margin-left: 35px;
         margin-bottom: 20px;
@@ -194,21 +169,8 @@ p{
     .marginFour{
         margin: 35px 0px 5px;
     }
-    .marginFive{
-        margin:unset;
-        margin-top: 25px;
+    .paddingUnset{
+        padding: 0px 15px 0px 15px;
     }
-    .marginSix{
-        margin-left: 35px;
-    }
-    .marginEleven{
-        margin: 0px 150px 0px 150px;
-    }
-    
+   
 }
-@media(min-width:1190px){
-    .imgThree{
-        width: 400px;
-        height: 300px; 
-    } 
-} 

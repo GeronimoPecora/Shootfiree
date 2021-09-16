@@ -1,18 +1,68 @@
 @media(max-width:449px){
-    .imgSeven{
-        width:300px;
-        height: 310px;
-       
+    .imgFive{
+        height: 360px;
     }
-    
+    .tamañoFour{
+        height:490px;
+        width: 100%;
+        
+    }
 }
 @media(min-width:450px){
     .imgSeven{
         width: 600px;
         height: 350px;
     }
-    .borderThree{
-        border-bottom: solid 3px white;
-      
+    .imgFive{
+        height: 400px;
+    }
+    .tamañoFour{
+        width: 420px;
+        height:510px;
+    }
+    
+   
+}
+@media(min-width:768px){
+    .tamañoFour{
+        height:400px;
+        width: 240px;
+    }
+    .tamañoFive{
+        height: 500px;
+        width: 700px;
+    }
+    .imgFive{
+        height: 240px;
+    }
+ 
+}
+@media(min-width:815px){
+    .tamañoFour{
+        height:430px;
+        width: 300px;
+    }
+    .imgFive{
+        height: 300px;
     }
 }
+@media(min-width:1040px){
+    .tamañoFour{
+        height:470px;
+        width: 350px;
+    }
+    .imgFive{
+        height: 350px;
+    }
+   
+} 
+@media(min-width:1090px){
+    .tamañoFour{
+        height:unset;
+        width: 410px;
+    }
+    .imgFive{
+        height: 410px;
+    }
+    
+} 
